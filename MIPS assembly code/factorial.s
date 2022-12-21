@@ -24,7 +24,7 @@ end:
     
 # C Code:
 '''
-int rec(int n){
+int fac(int n){
     if(n < 1) return 1;
     else return fac(n - 1) * n;
 }

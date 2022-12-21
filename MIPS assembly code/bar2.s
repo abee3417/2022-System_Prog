@@ -1,7 +1,6 @@
 # FUN bar
-# $a0: 100
-# $a1: 0
-# RETURN $v0: 101
+# arg $a0: arg
+# return $v0: res
 bar:
     addi		$sp, $sp, -8			# $sp = $sp + -8
     sw			$a0, 0($sp)			    # 
@@ -14,9 +13,8 @@ bar:
 
 
 # FUN foo
-# $a0: 0
-# $a1: 0
-# RETURN $v0: 201
+# arg $a0: nop
+# return $v0: c
 foo:
     addi		$sp, $sp, -16			# $sp = $sp + -16
     sw			$ra, 12($sp)			# 

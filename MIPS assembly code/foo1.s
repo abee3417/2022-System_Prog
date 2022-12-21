@@ -1,7 +1,6 @@
 # FUN foo1
-# $a0: 0
-# $a1: 0
-# RETURN $v0: 0
+# arg $a0: nop
+# return $v0: 0
 foo1:
     addi	$sp, $sp, -4	    # $sp = $sp + -4
     lw		$t0, 0($sp)		    # 

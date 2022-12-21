@@ -1,7 +1,6 @@
 # FUN foo3
-# $a0: 0
-# $a1: 0
-# RETURN $v0: 100
+# arg $a0: nop
+# return $v0: 100
 foo3:
     addi	$sp, $sp, 4			# $sp = $sp + 4
     li		$v0, 100		    # $v0 = 100
